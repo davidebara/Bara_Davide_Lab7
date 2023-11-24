@@ -14,9 +14,9 @@
             count++;
 
             if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
+                CounterBtn.Text = $"Meowed {count} time";
             else
-                CounterBtn.Text = $"Clicked {count} times";
+                CounterBtn.Text = $"Meowed {count} times";
 
             SemanticScreenReader.Announce(CounterBtn.Text);
         }
