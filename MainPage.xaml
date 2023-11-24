@@ -19,10 +19,10 @@
                 SemanticProperties.HeadingLevel="Level1" />
 
             <Label
-                Text="I love drinking milk &#10; and chasing rats ❤️"
+                Text="I love drinking milk &#10; and chasing mice ❤️"
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="The cat loves drinking milk and chasing rats" />
+                SemanticProperties.Description="The cat loves drinking milk and chasing mice" />
 
             <Button
                 x:Name="CounterBtn"
